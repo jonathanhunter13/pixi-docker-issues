@@ -1,0 +1,7 @@
+services:
+  pixi-docker-issues:
+    image: pixi-docker-issues
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 8080:80
